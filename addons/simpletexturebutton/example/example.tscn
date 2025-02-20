@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx2u3i2vulx2u"]
+
+[ext_resource type="Texture2D" uid="uid://bgu3kygovwawy" path="res://addons/simpletexturebutton/Button.png" id="1_881h2"]
+[ext_resource type="Script" path="res://addons/simpletexturebutton/simple_texture_button.gd" id="1_jtyh1"]
+
+[node name="Example" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SimpleTextureButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -361.0
+offset_top = -163.0
+offset_right = -290.0
+offset_bottom = -88.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("1_881h2")
+ignore_texture_size = true
+stretch_mode = 4
+script = ExtResource("1_jtyh1")
